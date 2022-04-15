@@ -5,7 +5,7 @@ This REST server stores JSON objects in RAM only, it does not save to disk. It i
 
 Functions are:
 
-  >GET http://localhost:500/welcome - Get a welcome page
+  `GET http://localhost:500/welcome` - Get a welcome page
 
   GET http://localhost:5000/welcome/<name> - Get a welcome page with your name in it.
   
