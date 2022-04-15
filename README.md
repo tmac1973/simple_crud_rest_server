@@ -12,7 +12,7 @@ Functions are:
   `GET http://localhost:5000/records` - Get a JSON list of records. Starts empty, so you have a create a record first to see much here.
                                     Returns a record_id for each record which must be used for update and delete functions.
   
-  `GET http://localhost:5000/record/<name>` - Returns a list of records who's name matches name.
+  `GET http://localhost:5000/record/<name>` - Returns a list of records who's name matches &lt;name&gt;.
  
   `POST http://localhost:5000/record?record_name=<name>` - Create a new record named "name". Accepts any JSON object as the POST body. Content type
                                                         must be "application/json"
