@@ -14,12 +14,12 @@ Functions are:
   
   `GET http://localhost:5000/record/<name>` - Returns a list of records who's name matches &lt;name&gt;.
  
-  `POST http://localhost:5000/record?record_name=<name>` - Create a new record named "name". Accepts any JSON object as the POST body. Content type
+  `POST http://localhost:5000/record?record_name=<name>` - Create a new record named &lt;name&gt;. Accepts any JSON object as the POST body. Content type
                                                         must be "application/json"
   
-  `PUT http://localhost:5000/record/id?id=<id>` - Update the record with the id of <<id>>.
+  `PUT http://localhost:5000/record/id?id=<id>` - Update the record with the id of &lt;id&gt;.
   
-  `DELETE http://localhost:5000/record/id?id=<id>` - Delete the record with the id of <id>. 
+  `DELETE http://localhost:5000/record/id?id=<id>` - Delete the record with the id of &lt;id&gt;.
   
   
 Cheers!
