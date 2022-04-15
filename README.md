@@ -21,5 +21,8 @@ Functions are:
   
   `DELETE http://localhost:5000/record/id?id=<id>` - Delete the record with the id of &lt;id&gt;.
   
+=======
+
+To run, have python 3.7+ and the flask python module installed, then excute `python main.py`
   
 Cheers!
