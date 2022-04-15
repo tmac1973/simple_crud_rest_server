@@ -29,7 +29,6 @@ class DatabaseAccess:
 
     def update_record_by_id(self, record_id, name, data):
         index = self.find_record_index_by_id(record_id)
-        print(data)
         self.records[index].name = name
         self.records[index].json_data = data
 
@@ -41,7 +40,6 @@ class DatabaseAccess:
 
     def delete_record(self, record_id):
         index = self.find_record_index_by_id(record_id)
-        print(index)
         del self.records[index]
 
 
