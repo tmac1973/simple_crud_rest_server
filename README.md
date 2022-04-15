@@ -23,6 +23,6 @@ Functions are:
   
 =======
 
-To run, have python 3.7+ and the flask python module installed, then excute `python main.py`
+To run, have python 3.7+ and the flask python module installed, then execute `python main.py`
   
 Cheers!
